@@ -35,6 +35,7 @@ jobs:
       - name: '运行 【京小超】'
         run: |
           node jd_superMarket.js
+          node jd_summer_movement.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
